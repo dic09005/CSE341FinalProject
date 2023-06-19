@@ -1,0 +1,42 @@
+[
+    {
+    "firstName": "Emily",
+    "lastName": "Anderson",
+    "address": "2225 Honey Lane, Salt Lake City, UT  96584",
+    "birthday": "12/25/1999",
+    "phoneNumber": "865-485-3589",
+    "emergenyContactName": "Bob Ross",
+    "emergencyContactPhoneNumber": "855-559-2575",
+    "insuranceCarrier": "Blue Cross of Utah",
+    "insuranceId": "2549658365",
+    "reasonForVisit": "Rash",
+    "primaryPhysician": "Dr. Sarah Roberts"
+    },
+    {
+    "firstName": "Benjamin",
+    "lastName": "Thompson",
+    "address": "456 Oak Avenue, Provo, UT 95845",
+    "birthday": "01/02/1985",
+    "phoneNumber": "865-259-3578",
+    "emergenyContactName": "Samantha Davis",
+    "emergencyContactPhoneNumber": "855-369-3168",
+    "insuranceCarrier": "Aetna",
+    "insuranceId": "1234567890",
+    "reasonForVisit": "Diabetes",
+    "primaryPhysician": "Dr. Mark Johnson"
+    },
+    {
+    "firstName": "Olivia",
+    "lastName": "Ramirez",
+    "address": "789 Elm Street, Lehi, UT 96584",
+    "birthday": "05/15/2003",
+    "phoneNumber": "865-957-3648",
+    "emergenyContactName": "Ethan Wilson",
+    "emergencyContactPhoneNumber": "855-248-7852",
+    "insuranceCarrier": "UnitedHealthcare",
+    "insuranceId": "4567890123",
+    "reasonForVisit": "Hypertension",
+    "primaryPhysician": "Dr. Laura Martinez"
+    }
+    
+]
