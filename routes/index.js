@@ -1,8 +1,20 @@
 
 
-const { auth, requiresAuth } = require('express-openid-connect');
-const dotenv = require('dotenv');
-dotenv.config();
+const express = require('express');
+const router = express.Router();
+
+
+router.use('/', require('./swagger'));
+router.use('/admin', require('./admin'));
+router.use('/employee', require('./employee'));
+router.use('/patient', require('./patient'));
+router.use('/schedule', require('./schedule'));
+
+module.exports = router;
+
+// const { auth, requiresAuth } = require('express-openid-connect');
+// const dotenv = require('dotenv');
+// dotenv.config();
 
 // const config = {
 //     authRequired: false,
