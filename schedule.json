@@ -1,0 +1,31 @@
+[{
+    "_id": {
+      "$oid": "61a921f6028954d4f0318e6d"
+    },
+    "patientFirstName": "Ice",
+    "patientLastName": "King",
+    "doctor": "P. Philips",
+    "department": "Derm",
+    "date": "10/13/2023"
+  },
+  {
+    "_id": {
+      "$oid": "61a921f6028954d4f0318e6e"
+    },
+    "patientFirstName": "Grassy",
+    "patientLastName": "Wizard",
+    "doctor": "P. Philips",
+    "department": "Derm",
+    "date": "10/14/2023"
+  },
+    {
+    "_id": {
+      "$oid": "61a921f6028954d4f0318e6a"
+    },
+    "patientFirstName": "Ice",
+    "patientLastName": "King",
+    "doctor": "D. Julien",
+    "department": "Optical",
+    "date": "10/18/2023"
+  }
+]

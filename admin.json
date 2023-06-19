@@ -1,0 +1,37 @@
+[{
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6d"
+    },
+    "firstName": "Joe",
+    "lastName": "Milkshake",
+    "accessLevel": 1,
+    "department": "Derm"
+  },
+  {
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6e"
+    },
+    "firstName": "Jake",
+    "lastName": "TheDog",
+    "accessLevel": 2,
+    "department": "Optical"
+  },
+    {
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6a"
+    },
+    "firstName": "Finn",
+    "lastName": "Human",
+    "accessLevel": 2,
+    "department": "ER"
+  },
+    {
+    "_id": {
+      "$oid": "61a921f6028954d4f0319e6g"
+    },
+    "firstName": "Susan",
+    "lastName": "Strong",
+    "accessLevel": 3,
+    "department": "Derm"
+  }
+]
