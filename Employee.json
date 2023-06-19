@@ -1,0 +1,43 @@
+
+[
+    {
+        "_id": {
+            "$oid": "61a921f6028954d4f0311a1a"
+        },
+        "jobTitleName":"Nurse",
+        "firstName":"John",
+        "lastName":"Doe",
+        "preferredFullName":"John Doe",
+        "employeeCode":"E1",
+        "region":"CA",
+        "phoneNumber":"408-1234567",
+        "emailAddress":"j.doe81@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "61a921f6028954d4f0311b1b"
+          },
+        "jobTitleName":"Nurse",
+        "firstName":"Neil",
+        "lastName":"Harris",
+        "preferredFullName":"Neil Harris",
+        "employeeCode":"E1",
+        "region":"CA",
+        "phoneNumber":"408-1111111",
+        "emailAddress":"neilharris@gmail.com"
+    },
+    {
+        "_id": {
+            "$oid": "61a921f6028954d4f0311c1c"
+          },
+        "jobTitleName":"Front Desk",
+        "firstName":"Tom",
+        "lastName":"Hanks",
+        "preferredFullName":"Tom Hanks",
+        "employeeCode":"E2",
+        "region":"CA",
+        "phoneNumber":"408-2222222",
+        "emailAddress":"tomhanks@gmail.com"
+    }
+    ]
+ 
