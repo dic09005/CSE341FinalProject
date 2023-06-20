@@ -5,7 +5,7 @@
     "description": "Med-Record-API",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341finalproject-94sq.onrender.com",
   "basePath": "/",
   "schemes": [
     "https"
