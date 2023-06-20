@@ -2,8 +2,8 @@ const swaggerAutogen = require('swagger-autogen')();
 
 const doc = {
   info: {
-    title: 'My API',
-    description: 'Med-Record-API',
+    title: 'MedData API',
+    description: 'This medical intake form API is our final project',
   },
   host: 'cse341finalproject-94sq.onrender.com',
   // host: 'localhost:3000',
