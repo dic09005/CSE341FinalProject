@@ -5,7 +5,8 @@ const doc = {
     title: 'My API',
     description: 'Med-Record-API',
   },
-  host: 'https://cse341finalproject-94sq.onrender.com',
+  // host: 'https://cse341finalproject-94sq.onrender.com',
+  host: 'localhost:3000',
   schemes: ['https'],
 };
 
