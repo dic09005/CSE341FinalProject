@@ -334,7 +334,7 @@ const deleteAdmin = async (req, res) => {
 const deleteEmployee = async (req, res) => {
   try {
     if (!ObjectId.isValid(req.params.id)) {
-      res.status(400).json('Must use a valid Team id to delete a Team.');
+      res.status(400).json('Must use a valid Team id to delete a Employee.');
     }
     const userId = new ObjectId(req.params.id);
     const response = await mongodb.getDb().db('MedData').collection('Employee').deleteOne({ _id: userId }, true);
@@ -352,7 +352,7 @@ const deleteEmployee = async (req, res) => {
 const deletePatient = async (req, res) => {
     try {
       if (!ObjectId.isValid(req.params.id)) {
-        res.status(400).json('Must use a valid Admin id to delete a Admin.');
+        res.status(400).json('Must use a valid Patient id to delete a Patient.');
       }
       const userId = new ObjectId(req.params.id);
       const response = await mongodb.getDb().db('MedData').collection('Patient').deleteOne({ _id: userId }, true);
@@ -370,7 +370,7 @@ const deletePatient = async (req, res) => {
   const deleteSchedule = async (req, res) => {
     try {
       if (!ObjectId.isValid(req.params.id)) {
-        res.status(400).json('Must use a valid Team id to delete a Team.');
+        res.status(400).json('Must use a valid Schedule id to delete a Schedule.');
       }
       const userId = new ObjectId(req.params.id);
       const response = await mongodb.getDb().db('MedData').collection('Schedule').deleteOne({ _id: userId }, true);
