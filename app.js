@@ -21,10 +21,8 @@ const config = {
 // auth router attaches /login, /logout, and /callback routes to the baseURL
 app.use(auth(config));
 
-// req.isAuthenticated is provided from the auth router
-app.get('/', (req, res) => {
-  res.send(req.oidc.isAuthenticated() ? 'Logged in' : 'Logged out');
-});
+
+ >>>>>>> main
 
 app.get('/profile', requiresAuth(), (req, res) => {
   res.send(JSON.stringify(req.oidc.user));
@@ -47,6 +45,7 @@ mongodb.initDb((err) => {
     console.log(err);
   } else {
     app.listen(port);
-    console.log(`Connected to DB and listening on ${port}`);
+    // console.log(`Connected to DB and listening on ${port}`);
   }
 });
+module.exports = app;

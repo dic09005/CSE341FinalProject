@@ -5,9 +5,10 @@ const doc = {
     title: 'MedData API',
     description: 'This medical intake form API is our final project',
   },
-  host: 'cse341finalproject-94sq.onrender.com',
-  // host: 'localhost:3000',
-  schemes: ['https'],
+  // host: 'cse341finalproject-94sq.onrender.com',
+  host: 'localhost:3000',
+  schemes: ['http'],
+  // schemes: ['https'],
 };
 
 const outputFile = './swagger.json';
