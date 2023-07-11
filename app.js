@@ -1,11 +1,9 @@
-const express = require('express');
 const bodyParser = require('body-parser');
 const mongodb = require('./db/connect');
-require('dotenv').config();
+const express = require('express');
+const app = express()
 
-const port = process.env.PORT || 3000;
-const app = express();
-
+const port = process.env.PORT || 3000
 
 const { auth, requiresAuth } = require('express-openid-connect');
 
@@ -31,7 +29,7 @@ app
     res.setHeader('Access-Control-Allow-Origin', '*');
     next();
   })
-  .use('/', requiresAuth(), require('./routes'));
+  .use('/', require('./routes'));
 
 process.on('uncaughtException', (err, origin) => {
   console.log(process.stderr.fd, `Caught exception: ${err}\n` + `Exception origin: ${origin}`);
@@ -39,10 +37,10 @@ process.on('uncaughtException', (err, origin) => {
 
 mongodb.initDb((err) => {
   if (err) {
-    console.log(err);
+    console.log('Connection failed: ' + err);
   } else {
-    app.listen(port);
-    console.log(`Connected to DB and listening on ${port}`);
+    // app.listen(port);
+    // console.log(`Connected to DB and listening on ${port}`);
   }
 });
 
