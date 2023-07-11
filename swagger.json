@@ -1,21 +1,24 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "My API",
-    "description": "Med-Record-API",
+    "title": "MedData API",
+    "description": "This medical intake form API is our final project",
     "version": "1.0.0"
   },
-  "host": "localhost:3000",
+  "host": "cse341finalproject-94sq.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
       "get": {
         "description": "",
-        "parameters": [],
-        "responses": {}
+        "responses": {
+          "default": {
+            "description": ""
+          }
+        }
       }
     },
     "/admin/": {
@@ -24,7 +27,6 @@
         "produces": [
           "application/json"
         ],
-        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
@@ -170,7 +172,6 @@
         "produces": [
           "application/json"
         ],
-        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
@@ -340,7 +341,6 @@
         "produces": [
           "application/json"
         ],
-        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
@@ -528,7 +528,6 @@
         "produces": [
           "application/json"
         ],
-        "parameters": [],
         "responses": {
           "200": {
             "description": "OK"
