@@ -33,7 +33,7 @@ describe('insert', () => {
             insuranceCarrier: "Blue Cross of Utah",
             insuranceId: "2549658365",
             reasonForVisit: "Rash",
-            primaryPhysician: "Dr. Sarah Roberts",
+            primaryPhysician: "Dr. Sarah Roberts"
         }
 
         await Patient.insertOne(mockPatient)

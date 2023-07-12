@@ -23,14 +23,14 @@ describe('insert', () => {
 
         const mockEmployee = {
             id: 'some-Employee-id',
-            jobTitleName: 'The Boss',
-            firstName: "John",
-            lastName: "Doe",
-            preferredFullName: "John",
-            employeeCode: "L1",
-            region: "US",
-            phoneNumber: "555-555-1234",
-            emailAddress: "johndoe@gmail.com",
+            jobTitleName: "Somethin",
+            firstName: "Nobody",
+            lastName: "Owens",
+            preferredFullName: "NobodyOwens",
+            employeeCode: "10",
+            region: "Graveyard",
+            phoneNumber: "9992020202",
+            emailAddress: "graveyardway@gmail.com",
         }
 
         await Employee.insertOne(mockEmployee)
