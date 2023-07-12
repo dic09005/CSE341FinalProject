@@ -39,7 +39,7 @@ mongodb.initDb((err) => {
   if (err) {
     console.log('Connection failed: ' + err);
   } else {
-    // app.listen(port);
+    app.listen(port);
     // console.log(`Connected to DB and listening on ${port}`);
   }
 });
