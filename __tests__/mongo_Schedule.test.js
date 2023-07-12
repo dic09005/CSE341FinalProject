@@ -22,6 +22,7 @@ describe('insert', () => {
         const Schedule = db.collection('Schedule');
 
         const mockSchedule = {
+            id: 'some-Schedule-id',
             patientFirstName: "Grassy",
             patientLastName: "Wizard",
             doctor: "P. Philips",
